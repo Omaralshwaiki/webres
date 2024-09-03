@@ -1,0 +1,32 @@
+.web-head {
+    background-color: rgb(192, 189, 189);
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.web-head nav {
+    float: right;
+    padding-right: 10%;
+   
+}
+.web-head img{
+flex-wrap: wrap;
+height: 100px;
+width: 100px;
+}
+
+
+.web-head a{
+    color: black;
+    text-decoration: none;
+}
+.web-head nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 35px;
+   
+}

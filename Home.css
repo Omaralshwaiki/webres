@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#About {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+    background-image: url(image/palestinefoodies.png);
+    
+}
+
+#About h2 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#About p {
+    flex: 1 1 50%;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align:left;
+}
+
+#About img {
+    width: 350px;
+    height: 350px;
+    text-align: right;
+    padding-top: 30px;
+}
+#Top-sale {
+    padding: 30px 15px;
+}
+
+#Top-sale h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.Foodies {
+    display:inline-table;
+    padding: 35px 20px;
+    margin-top: 30px;
+    width: 20%;
+    height: 80px;
+}
+.Foodies h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Foodies p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+@media (max-width: 1024px) {
+    #About {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    #About p {
+        padding: 0 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .Foodies {
+        width: 45%;
+        padding: 25px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #About p {
+        font-size: 16px;
+    }
+
+    .Foodies {
+        width: 100%;
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #About {
+        padding: 20px;
+    }
+    #About p {
+        font-size: 14px;
+    }
+
+    .Foodies {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 15px 10px;
+    }
+
+    .Foodies img {
+        width: 100%;
+        height: auto;
+    }
+
+    #Top-sale h2 {
+        font-size: 20px;
+    }
+}
